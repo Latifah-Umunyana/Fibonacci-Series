@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity() {
         var accumulator = 0
         var fibonacci = mutableListOf<Int>()
 
-        while (accumulator < 1000000000){
+        while (accumulator < 100){
 
             fibonacci.add(accumulator)
             a = b
